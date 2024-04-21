@@ -6,4 +6,4 @@
 ![4 Redirect](https://github.com/affancoder/RESTfull-APIs-CRUD-Operation/assets/113276865/7833daa3-844e-4841-9aff-e6fb83914641)
 ![5 Show-route(id)](https://github.com/affancoder/RESTfull-APIs-CRUD-Operation/assets/113276865/db8df4e9-7d4d-482b-b714-f64c8dd98270)
 
-important images and maunaul for guide
+important images and manaul for guide
