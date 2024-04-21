@@ -1,0 +1,17 @@
+RESTfull is set of rules to perform crud opertaion
+
+steps :-
+
+npm init -y -> package.json
+
+npm i express -> node modules + package-lock.json
+
+npm i ejs -> embedded javascript
+
+touch index.js -> making file named as index.js
+
+mkdir public & mkdir views -> making folder
+
+|| get request  -> req.params ||
+---------------------------------
+|| post request -> req.body   ||
