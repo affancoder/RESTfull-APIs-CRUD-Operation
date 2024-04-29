@@ -1,0 +1,11 @@
+<% ("includes/home") %>
+<title>Quora</title>
+<link rel="stylesheet" href="/style.css" class="style">
+<body>
+    <h2>Here is your post in details</h2>
+    <p>Post id: <%= post.id %></p>
+    <div class="post">
+        <h3 class="user">@<%= post.username %></h3>
+        <h4><%= post.says %></h4>
+    </div>
+</body>

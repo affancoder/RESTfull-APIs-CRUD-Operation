@@ -1,0 +1,38 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+html,body{
+    /* background-color: lightblue; */
+    color: black;
+    border: 2px solid gainsboro;
+    padding: 10px;
+}
+h1{
+    color: maroon;
+}
+h3{
+    font-style: oblique;
+    font-weight: 700;
+}
+.post{
+    background-color: bisque;
+}
+button{
+    background-color: teal;
+    border-radius: 4px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(23, 167, 23);
+    color: white;
+    height: 30px;
+    width: 60px;
+}
+.delbtn{
+    background-color: red;
+    color: white;
+}

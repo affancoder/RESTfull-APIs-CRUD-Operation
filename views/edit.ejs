@@ -1,0 +1,17 @@
+<% ("includes/home") %>
+<title>Quora</title>
+<link rel="stylesheet" href="/style.css" class="style">
+</head>
+<body>
+    <h2>Edit your post</h2>
+    <div class="post">
+    <p>Id : <%= post.id %></p>
+    <p>Username : <b>@<%= post.username %></b></p>
+    </div>
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+        <textarea rows="10" cols="28" name="says"><%= post.says %></textarea>
+        <br>
+        <br>
+        <button class="btn">Save</button>
+    </form>
+</body>
