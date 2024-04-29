@@ -12,6 +12,12 @@ touch index.js -> making file named as index.js
 
 mkdir public & mkdir views -> making folder
 
+------------------------------------------------------
+
 || get request  -> req.params ||
 ---------------------------------
 || post request -> req.body   ||
+
+| Html form only send GET & POST response |
+
+npm package -> method-override -> to access PUT, PATCH & DELETE request
