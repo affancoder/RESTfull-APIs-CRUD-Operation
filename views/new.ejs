@@ -1,6 +1,9 @@
-<% ('includes/home.ejs') %>
-<title>Quora</title>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora</title>
     <style>
         h1{
             color: maroon;
@@ -23,6 +26,8 @@
             width: 100px;
         }
     </style>
+</head>
+<body>
     <form method="post" action="/posts">
         <h1>Quora Posting</h1>
         <input name="username" placeholder="your name here">
@@ -32,3 +37,4 @@
         <button>Submit</button>
     </form>
 </body>
+</html>
